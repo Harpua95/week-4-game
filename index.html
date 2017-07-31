@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Crystals Collector Game</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+
+<body>
+
+	<div id="container">
+		<header>
+			<h1>Phish Collector!</h1>
+		</header>
+		<section>
+			<p>You will be given a random number of songs at the start of the game.</p>
+			<br>
+			<p>Below are the Boys. Each band memeber has different number of songs they will play.
+			</p>
+			<br>
+			<p>You win the game by matching the score. You lose when your score goes ove the score mentioned</p>
+			<br>
+			<p>Value of each Phishman is hidden until you click their picture.</p>
+			<br>
+			<p>The songs change in value at the start of each game. 
+			</p>
+			<br>
+			<p>Good Luck!!</p>
+		</section>	
+		
+		<div id="randomnumber-and-scoreboard">
+			<div id="random-number-generator">
+				<span id="random-number">45</span>
+			</div>
+
+			<div id="score-board">
+				<span id="win-or-lose"></span>
+				<p>"Wins: "
+					<span id="win-counter">0</span></p>
+				<p>"Losses: "
+					<span id="loss-counter">0</span>
+				</p>	
+			</div>
+		</div>
+
+		<div id="crystals">
+			<img id="trey" src="assets/images/Trey.jpg" alt="image1">
+			<img id="gordo" src="assets/images/Gordo.jpg" alt="image2">
+			<img id="page" src="assets/images/Page-McConnell.jpg" alt="image3">
+			<img id="fish" src="assets/images/Fishman.jpeg" alt="image4">
+		</div>
+
+		<div id="current-score">
+			<h1>Your Total Score is:</h1>
+			<span id="current-score-counter"></span>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+
+	<script type="text/javascript" src="assets/game.js">
+	</script>
+
+
+</body>
+</html>
