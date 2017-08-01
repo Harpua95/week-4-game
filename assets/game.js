@@ -57,13 +57,13 @@
 	$("#trey").on("click", function() {
 		userTotalScore += treyChoice;
 		$("#current-score-counter").text(userTotalScore);
-			gamePlay();
+			playGame();
 	});
 	
 	$("#gordo").on("click", function() {
 		userTotalScore += gordoChoice;
 		$("#current-score-counter").text(userTotalScore);
-			gamePlay();
+			playGame();
 			
 
 	});
@@ -71,7 +71,7 @@
 	$("#page").on("click", function() {
 		userTotalScore += pageChoice;
 		$("#current-score-counter").text(userTotalScore);
-			gamePlay();
+			playGame();
 			
 
 	});
@@ -79,7 +79,7 @@
 	$("#fish").on("click", function() {
 		userTotalScore += fishChoice;
 		$("#current-score-counter").text(userTotalScore);
-			gamePlay();
+			playGame();
 			
 
 	});
